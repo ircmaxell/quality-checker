@@ -1,0 +1,9 @@
+{
+    "require": {
+        "silex/silex": "1.0.*",
+        "zetacomponents/archive": "dev-master",
+        "phpmd/phpmd": "dev-master",
+        "pdepend/pdepend": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
