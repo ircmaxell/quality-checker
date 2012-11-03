@@ -1,0 +1,12 @@
+{% extends "template.twig" %}
+
+{% block container_content %}
+<table class="table table-bordered">
+    {% for item in data %}
+        <tr>
+           <td>{{ item.url }}</td>
+           <td>{{ item.phploc.Classes }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %} 

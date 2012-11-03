@@ -1,11 +1,12 @@
 <?php
 
-namespace QualityChecker;
+namespace QualityChecker\Parser;
 
 class Stats {
 
-    public function getStats($dir) {
+    public function getStats($dir, $url) {
         return array(
+            'url' => $url,
             'phploc' => $this->getPHPLOC($dir),
         );
     }

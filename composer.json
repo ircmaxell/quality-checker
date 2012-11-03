@@ -3,7 +3,10 @@
         "silex/silex": "1.0.*",
         "zetacomponents/archive": "dev-master",
         "phpmd/phpmd": "dev-master",
-        "pdepend/pdepend": "dev-master"
+        "pdepend/pdepend": "dev-master",
+        "symfony/twig-bridge": "2.1.*",
+        "mheap/Silex-Mongo": "*",
+        "doctrine/mongodb-odm": "*"
     },
     "minimum-stability": "dev"
 }
